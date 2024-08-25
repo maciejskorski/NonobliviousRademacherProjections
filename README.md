@@ -25,8 +25,7 @@ For each trace, the distortion was evaluated according to the standard formula $
 The following plot shows the distortion distribution tail (empirical CDF) for each dataset. 
 
 It is seen that the better data sparisty (lower $\|x\|_0$), the more accurate (lighter tail) projections.
-
-<img src="./distortion_comparison.png">
+![Distortion Comparison](./distortion_comparison.png)
 
 Sparse random projections are less statistically powerful than Rademacher projections (which have a density parameter of 1). 
 
