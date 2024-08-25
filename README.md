@@ -31,7 +31,7 @@ Sparse random projections are less statistically powerful than Rademacher projec
 
 This is illustrated by average distortion densities across datasets:
 
-| Mean Distortion | Projection Density |
+| Projection Density | Mean Distortion |
 |------------|---------|
 | 0.1 | 0.276501 |
 | 0.3 | 0.204172 |
