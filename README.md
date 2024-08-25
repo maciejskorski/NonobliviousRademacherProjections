@@ -27,3 +27,14 @@ The following plot shows the distortion distribution tail (empirical CDF) for ea
 It is seen that the better data sparisty (lower $\|x\|_0$), the more accurate (lighter tail) projections.
 
 <img src="./distortion_comparison.png">
+
+Sparse random projections are less statistically powerful than Rademacher projections (which have a density parameter of 1). This is illustrated by average distortion densities across datasets:
+
+| Mean Distortion | Projection Density |
+|------------|---------|
+| 0.1 | 0.276501 |
+| 0.3 | 0.204172 |
+| 0.5 | 0.186883 |
+| 1.0 | 0.172732 |
+
+Lower distortion density indicates better performance. As shown, Rademacher projections (density = 1.0) perform best.
