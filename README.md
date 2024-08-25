@@ -10,19 +10,20 @@ The more spread out the input data, as captured by the majorization order, the m
 
 ## Empirical Comparison
 
-Monte Carlo simulations (N=1000 traces) were performed on random projections (dimension D=50) for several datasets from the SuiteSparse Matrix Collection (formerly known as the University of Florida Sparse Matrix Collection). In this context, sparsity is defined as the fraction of zero entries in a dataset. The following table summarizes the sparsity of each analyzed dataset:
+Monte Carlo simulations (N=1000 traces) were performed on random projections (dimension D=50) for several datasets (subsamples of 50 datapoints), that cover the text, image, and graph domains. In this context, sparsity is defined as the number of non-zero entries in a vector. The following table summarizes the analyzed datasets:
 
 | Dataset | Sparsity |
 |---------|----------|
-| Glass_10NN | 0.936168 |
-| Ecoli_10NN | 0.960298 |
-| micromass_10NN | 0.970683 |
-| plantstexture_10NN | 0.991220 |
-| mnist_test_norm_10NN | 0.998542 |
+| Glass_10NN | 13.24 |
+| Ecoli_10NN | 13.68 |
+| plantstexture_10NN | 13.92 |
+| micromass_10NN | 17.24 |
+| MNIST | 148.52 |
+| NIPS | 676.38 |
 
 For each trace, the distortion was evaluated according to the standard formula $\|A x\|^2 / \|x\|^2-1$.
 The following plot shows the distortion distribution tail (empirical CDF) for each dataset. 
 
 It is seen that the higher data sparisty, the more accurate (lighter tail) projections.
 
-<img src="./comparison (1).svg">
+<img src="./distortion_comparison.png">
