@@ -21,7 +21,7 @@ Monte Carlo simulations (N=1000 traces) were performed on random projections (di
 | MNIST | 148.52 |
 | NIPS | 676.38 |
 
-For each trace, the distortion was evaluated according to the standard formula $\|A x\|^2 / \|x\|^2-1$.
+For each trace, the distortion was evaluated according to the standard formula $\|A x\|^2 / \|x\|^2-1$, and averaged over the subsampled points.
 The following plot shows the distortion distribution tail (empirical CDF) for each dataset. 
 
 It is seen that the better data sparisty (lower $\|x\|_0$), the more accurate (lighter tail) projections.
