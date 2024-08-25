@@ -20,9 +20,9 @@ Monte Carlo simulations (N=1000 traces) were performed on random projections (di
 | plantstexture_10NN | 0.991220 |
 | mnist_test_norm_10NN | 0.998542 |
 
-For each trace, the distortion was evaluated according to the standard formula $\|A x\|^2 / \|x\|^2$.
+For each trace, the distortion was evaluated according to the standard formula $\|A x\|^2 / \|x\|^2-1$.
 The following plot shows the distortion distribution tail (empirical CDF) for each dataset. 
 
-It is seen that the higher data sparisty, the more accurate (less dispersed) projections.
+It is seen that the higher data sparisty, the more accurate (lighter tail) projections.
 
 <img src="./comparison (1).svg">
