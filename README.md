@@ -40,3 +40,7 @@ This is illustrated by average distortion densities across datasets:
 | 1.0 | 0.172732 |
 
 Lower distortion density indicates better performance. As shown, Rademacher projections (density = 1.0) perform best.
+
+## Impleentation
+
+See the [notebook](./notebooks/NonobliviousRademacherProjections.ipynb) for details.
