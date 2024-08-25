@@ -6,7 +6,7 @@ The repository associated with the paper "Non-Oblivious Performance of Rademache
 
 The results improve accuracy guarantees in a data-dependent (non-oblivious) way using majorization and Schur concavity.
 
-The more spread out the input data, the more distorted are the embeddings.
+The more spread out the input data, as captured by the majorization order, the more distorted are the embeddings.
 
 ## Empirical Comparison
 
@@ -20,6 +20,7 @@ Monte Carlo simulations (N=1000 traces) were performed on random projections (di
 | plantstexture_10NN | 0.991220 |
 | mnist_test_norm_10NN | 0.998542 |
 
+For each trace, the distortion was evaluated according to the standard formula $\|A x\|^2 / \|x\|^2$.
 The following plot shows the distortion distribution tail (empirical CDF) for each dataset. 
 
 It is seen that the higher data sparisty, the more accurate (less dispersed) projections.
