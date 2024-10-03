@@ -1,8 +1,22 @@
-@inproceedings{
-skorski2024nonoblivious,
-title={Non-Oblivious Performance of Random Projections},
-author={Maciej Skorski and Alessandro Temperoni},
-booktitle={The 16th Asian Conference on Machine Learning (Conference Track)},
-year={2024},
-url={https://openreview.net/forum?id=9XBg73M0BE}
-}
+cff-version: 1.2.0
+message: "If you find this repository helpful, please cite it as below."
+authors:
+  - family-names: "Skorski"
+    given-names: "Maciej"
+  - family-names: "Temperoni"
+    given-names: "Alessandro"
+title: "Non-Oblivious Performance of Random Projections"
+version: 1.0.0
+date-released: 2024
+url: "https://openreview.net/forum?id=9XBg73M0BE"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Skorski"
+      given-names: "Maciej"
+    - family-names: "Temperoni"
+      given-names: "Alessandro"
+  title: "Non-Oblivious Performance of Random Projections"
+  collection-title: "The 16th Asian Conference on Machine Learning (Conference Track)"
+  year: 2024
+  url: "https://openreview.net/forum?id=9XBg73M0BE"
